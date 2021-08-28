@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* main container hold the all the componets of page */
+
+.main_container{
+    width: 100vw;
+    height: auto;
+}
+
+/* common stylings  */
+
+/* start button */
+.start_btn{
+    
+    background-color: #38373C;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+/* keep me center */
+.keepCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.horizontalCenter{
+    display: flex;
+    align-items: center;
+}
+
+
+/* nav bar stylings  */
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    background-color: dodgerblue;
+
+}
+
+.topnav a{
+    text-decoration: none;
+    gap: 50px;
+}
+
+
+
+/* secondPart */
+
+.secondPart{
+    padding: 5px;
+    height: 700px;
+    width: 100%;
+    background-color:violet;
+
+}
+
+/* thirdPart */
+
+.thirdPart{
+    margin-top: 50px;
+    height: 700px;
+    width: 100%;
+    background-color: green;
+
+}
+
+/* fourthPart */
+
+.fourthPart{
+    margin-top: 50px;
+    height: 700px;
+    width: 100%;
+    background-color: black;
+
+
+}
+
+
+/* fifthPart */
+
+.fifthPart{
+    margin-top: 50px;
+    height: 700px;
+    width: 100%;
+    background-color: yellow;
+}
+
+/* sixthPart */
+
+.sixthPart{
+    margin-top: 50px;
+    height: 650px;
+    width: 100%;
+    background-color: orange;
+
+}
