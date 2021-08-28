@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: poppins;
 }
 
 /* main container hold the all the componets of page */
@@ -39,6 +41,8 @@
 /* nav bar stylings  */
 
 .topnav{
+    margin: 0;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     height: 15vh;
@@ -46,12 +50,27 @@
     background-color: dodgerblue;
 
 }
-
-.topnav a{
+.topnav_left{
     text-decoration: none;
-    gap: 50px;
+    font-size: 24px;
 }
 
+.topnav_right a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.navStart{
+    margin-right: 100px;
+}
+/* firstPart */
+
+.firstPart{
+    height: 700px;
+    width: 100%;
+
+}
 
 
 /* secondPart */
