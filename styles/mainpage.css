@@ -57,27 +57,266 @@
 /* secondPart */
 
 .secondPart{
-    padding: 5px;
+
+    /* padding: 5px; */
     height: 700px;
     width: 100%;
-    background-color:violet;
+    /* background-color:violet; */
 
 }
+
+.page-4_container {
+    height: 100vh;
+    width: 100vw;
+   
+ }
+ 
+ .left-container {
+     width: 34%;
+     height: 67%;
+     background-color: #E3E3E3;
+     float: left;
+     /* margin-top: 5%; */
+     border-radius: 15px;
+     padding: 40px;
+     opacity: 0.985;
+     position: absolute;
+     bottom: 5%;
+     z-index: 1;
+     left: 10%;
+     /* elevation: 5px; */
+     /* right: 7%; */
+     font-weight: bold;
+     filter: blur(0.4px);
+ }
+ 
+ .title {
+     font-family: sans-serif ;
+     font-size: 1.3vw;
+     letter-spacing: 1;
+ }
+ 
+ .text {
+     font-family: poppins;
+     font-size: 1.1vw;
+     line-height: 180%;
+ }
+ 
+ .input-email {
+     border: none;
+     border-radius: 7px;
+     width: 70%;
+     height: 10%;
+     font-size: 1vw;
+     margin-top: 3%;
+     background-color: #ffffff;
+     padding-left: 10px;
+ }
+ 
+ input[type=text]:focus {
+     border:none;
+   }
+ 
+ .button {
+     font-family: poppins;
+     border-radius: 7px;
+     background-color: #2B3236;
+     width: 20%;
+     height: 10%;
+     color: #ffffff;
+     margin: 10px;
+     letter-spacing: 1;
+ }
+
+ .grid {
+    position: absolute;
+    top: 24.8%;
+    left: 15%;
+    z-index: -1;
+}
+ 
+ .image_container {
+     /* background-image: url(./pexels-ibrahim-boran-8080823.png); */
+    /* width: 1015; 
+     margin-left: 100px;
+     justify-content: center ; */
+     /* z-index: -1; */
+     /* width: 73%;
+     height: 60%; */
+     top: 10;
+     float: right;
+     position: relative;
+ }
+ 
+
 
 /* thirdPart */
 
 .thirdPart{
-    margin-top: 50px;
+
     height: 700px;
     width: 100%;
     background-color: green;
 
 }
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+
+.container_3{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #D6D0D7;
+    color: #fff;
+    overflow: hidden;
+
+}
+.image{
+    width: 38vw;
+    height: 80vh;
+   /* min-width: 40vw;
+   min-width: 60vh; */
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    margin-top: 1%;
+  
+}
+
+.text_continer{
+    width: 70%;
+    background-color: #2B3236;
+    height: 100%;
+    /* padding: 100px 100px 100px 200px; */
+    padding-left: 20%;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+
+
+}
+.content{
+    width: 45vw;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: red; */
+    padding-top: 10px;
+}
+.heading{
+    font-size: 60px;
+    font-weight: bolder;
+    /* line-height: 4.25rem; */
+    letter-spacing: 0.1rem;
+    width: 80%;
+    height: auto;
+    min-width: 400px;
+}
+.description{
+    width: 80%;
+    min-width: 400px;
+    font-size: 16px;
+    /* margin-top:25px ; */
+    font-family: poppins;
+    line-height: 1.25rem;
+    letter-spacing: .1rem;
+
+
+}
+.contactForm{
+    /* margin-top: 50px; */
+    width: 80%;
+    min-width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.input{
+ width: 70%;
+ height:40px;
+
+ border: none;
+ border-radius: 7px;
+ font-weight: 400;
+ font-size: 18px;
+ font-family:'poppins';
+ padding-left: 1vw;
+ color: #38373C;
+ 
+
+}
+
+.submit{
+    height: 40px;
+    width: 100px;
+    background-color: #2A2424; 
+    font-family: poppins;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+
+
+}
+
+@media (max-width :1440px) {
+
+    
+
+} 
+@media (max-width :1024px) {
+    .heading{
+        font-size: 50px;
+        width: 90%;
+    }
+    .submit{
+        margin-right: 0;
+    }
+
+
+
+} 
+@media (max-width :768) {
+    .image{
+        width: 40vw;
+        height: 30vh;
+    }
+    .content{
+        padding-top: 0;
+    }
+
+
+
+} 
+
 /* fourthPart */
 
 .fourthPart{
-    margin-top: 50px;
+
     height: 700px;
     width: 100%;
     background-color: black;
@@ -89,7 +328,7 @@
 /* fifthPart */
 
 .fifthPart{
-    margin-top: 50px;
+
     height: 700px;
     width: 100%;
     background-color: yellow;
@@ -98,7 +337,7 @@
 /* sixthPart */
 
 .sixthPart{
-    margin-top: 50px;
+
     height: 650px;
     width: 100%;
     background-color: orange;
