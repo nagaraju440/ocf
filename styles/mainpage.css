@@ -12,6 +12,7 @@
   width: 100vw;
   height: auto;
 }
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* common stylings  */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -38,7 +39,7 @@
 /* firstPart */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .firstPart {
-  height: 700px;
+  height: 750px;
   width: 100%;
   /* position: relative; */
   background-color: #d6d0d7;
@@ -96,13 +97,13 @@
 }
 .firstPartImage {
   width: 40vw;
-  height: 85vh;
+  height: 90%;
   /* min-width: 40vw;
    min-width: 60vh; */
   position: absolute;
   top: 50%;
   right: 5%;
-  transform: translateY(-42%);
+  transform: translateY(-35%);
   margin-top: 1%;
 }
 .firstPart_TextContainer {
@@ -116,7 +117,7 @@
   height: 80vh;
   position: absolute;
   top: 50%;
-  transform: translateY(-42%);
+  transform: translateY(-35%);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -128,8 +129,8 @@
   width: 100px;
   background-color: #2A2424;
   border-radius: 50%;
-  top: 125px;
-  left: 50px;
+  top:25%;
+  left: 2.5%;
 }
 .firstPart_TextContainer_heading{
   font-size: 60px;
@@ -220,6 +221,7 @@
   font-size: 1vw;
   letter-spacing: 0.025rem;
   line-height: 2rem;
+  overflow-y: hidden;
 }
 
 .input-email_5 {
@@ -303,6 +305,8 @@
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.1rem;
+  overflow-y: hidden;
+
 }
 .contactForm {
   /* width: 80%; */
@@ -399,6 +403,8 @@
   font-size: 1vw;
   letter-spacing: 0.025rem;
   line-height: 2rem;
+  overflow-y: hidden;
+
 }
 .fourthPartcontainerInput {
   width: 80%;
@@ -505,46 +511,58 @@
 /* sixthPart */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .sixthPart {
-  height: 650px;
+  height: 600px;
   width: 100%;
-  background-color: orange;
+  /* background-color: orange; */
+  margin-bottom: 50px;
+  
 }
 
 .wholepage {
-  width: "100%";
-  height: 650;
+  width: 95%;
+  height:100%;
   background-color: #e3e3e3;
-  border-radius: 10;
+  border-radius: 10px;
+  margin: auto;
   /* position: ; */
   /* color: red; */
 }
 
 .insideWholePage {
-  width: "70%";
-  height: 350;
+  width: 90%;
+  /* height: 350px; */
   margin-left: 10%;
   margin-right: 5%;
   /* margin-top: 100; */
   /* padding: 100; */
-  padding-top: 92;
+  margin-top: 92px;
   /* background-color: red; */
 }
 .circle {
-  width: 52;
-  height: 52;
+  width: 52px;
+  height: 52px;
   border-radius: 26px;
   /* color:red; */
   background-color: white;
   float: left;
+  /* justify-content: center; */
+
+  /* padding-top: 10px; */
+  text-align: center;
+  /* align-items: center; */
 }
 .oc {
-  /* font-size: 24; */
+  font-size: 24px;
   /* margin-left: 30; */
   font-weight: bold;
-  /* padding-left: -30; */
-  margin-top: 10;
-  width: 250;
-  margin-left: 30;
+  /* padding-left: -30px; */
+  margin-top: 10px;
+  /* background-color: red; */
+  left:-27px;
+  position: relative;
+  /* width: 250px; */
+  /* margin-left: -10px; */
+  /* margin-left: -10px; */
 }
 .dropbtn {
   background-color: white;
@@ -555,7 +573,7 @@
   cursor: pointer;
   width: 7vw;
   border-radius: 9px;
-  height: 44;
+  height: 44px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -585,6 +603,7 @@
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #f1f1f1;
+  overflow: hidden;
 }
 
 /* Show the dropdown menu on hover */
@@ -595,16 +614,18 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+  overflow: hidden;
 }
 
 .input-email {
   border: none;
   border-radius: 8px;
   width: 22vw;
-  height: 43;
+  height: 43px;
   font-size: 1vw;
-  font-family: "poppins";
+  font-family: poppins;
   padding-left: 1vw;
+  margin-top: -1px;
 }
 .button {
   font-family: poppins;
@@ -614,9 +635,11 @@
   /* width: 80;
        */
   width: 8vw;
-  height: 44;
+  height: 44px;
   color: white;
   letter-spacing: 1;
+  margin-top: -1px;
+
 }
 .grid-container {
   display: grid;
