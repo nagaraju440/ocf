@@ -80,11 +80,7 @@
   margin-right: 4%;
   background-color: #38373c;
 }
-.backGroundBox {
-  height: 100%;
-  width: 70%;
-  background-color: #38373c;
-}
+
 
 /* content styling in first part */
 
@@ -110,7 +106,7 @@
   margin-top: 1%;
 }
 .firstPart_TextContainer {
-  width: 65%;
+  width: 68%;
   background-color: #2b3236;
   height: 100%;
   padding-left: 5%;
